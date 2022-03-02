@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ranges",
+  "info": {
+    "name": "range",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "range": {
+      "type": "string"
+    },
+    "products": {
+      "collection": "products",
+      "via": "ranges",
+      "dominant": true
+    }
+  }
+}
