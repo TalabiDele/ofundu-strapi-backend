@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "CI=false react-scripts build",
+    "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
